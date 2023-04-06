@@ -1,0 +1,26 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "LU09EAh",
+    "id": "72byCONZaQdC3lgB",
+    "key": "4VaIouVqyzrhc6XJO2ishm8niCC8I6tj",
+    "label": "Key for Web app dssAPIwebapp(LU09EAh)",
+    "createdOn": 1680798596627
+  }
+]
