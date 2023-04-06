@@ -2,9 +2,9 @@
   "type": "STANDARD",
   "hasLegacyBackendURL": false,
   "params": {
-    "backendEnabled": false,
+    "backendEnabled": true,
     "enableJavascriptModules": false,
-    "autoStartBackend": false,
+    "autoStartBackend": true,
     "hideJSSecurityPanel": false,
     "envSelection": {
       "envMode": "INHERIT"
@@ -43,11 +43,11 @@
   "name": "dssAPIwebapp",
   "apiKey": "4VaIouVqyzrhc6XJO2ishm8niCC8I6tj",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680798596656
+    "lastModifiedOn": 1680798677259
   },
   "creationTag": {
     "versionNumber": 0,
