@@ -19,6 +19,10 @@
           {
             "targetProject": "DKU_TSHIRTS",
             "appearOnFlow": true
+          },
+          {
+            "targetProject": "DKU_TSHIRTS_nGIwCNB6",
+            "appearOnFlow": true
           }
         ]
       }
@@ -208,11 +212,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681133499342
+    "lastModifiedOn": 1681141060848
   },
   "creationTag": {
     "versionNumber": 0,
