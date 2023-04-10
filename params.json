@@ -10,6 +10,17 @@
         "localName": "us-50",
         "quickSharingEnabled": false,
         "rules": []
+      },
+      {
+        "type": "DATASET",
+        "localName": "AppleStore",
+        "quickSharingEnabled": false,
+        "rules": [
+          {
+            "targetProject": "DKU_TSHIRTS",
+            "appearOnFlow": true
+          }
+        ]
       }
     ]
   },
@@ -197,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681132921049
+    "lastModifiedOn": 1681133499342
   },
   "creationTag": {
     "versionNumber": 0,
