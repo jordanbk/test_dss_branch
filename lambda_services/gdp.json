@@ -8,7 +8,7 @@
       "testQueries": [],
       "inputFolderRefs": [],
       "userFunctionName": "api_py_function",
-      "code": "import os.path\nimport unicodedata\nfrom datetime import datetime\nimport dataiku\nimport dataikuapi\nfrom dataiku import pandasutils as pdu\nimport io\nimport pandas as pd\nimport geopandas as gpd\nimport numpy as np\nimport gstools as gs\nimport string\nfrom scipy.spatial import cKDTree\n \n\ndef my_api_function(i):\n    folder \u003d dataiku.Folder(\"zNPEXycJ\")\n    with folder.get_download_stream(\"StatPlanet_Afghanistan.zip\") as stream:\n        data \u003d stream.read()\n\n    shape_cnt \u003d gpd.read_file(io.BytesIO(data))​\n    shape_cnt \u003d shape_cnt.to_crs(epsg\u003d3857)\n    return shape_cnt.columns\n",
+      "code": "import os.path\nimport unicodedata\nfrom datetime import datetime\nimport dataiku\nimport dataikuapi\nfrom dataiku import pandasutils as pdu\nimport io\nimport pandas as pd\nimport geopandas as gpd\nimport numpy as np\nimport gstools as gs\nimport string\nfrom scipy.spatial import cKDTree\n \n\ndef my_api_function(i):\n    folder \u003d dataiku.Folder(\"zNPEXycJ\")\n    with folder.get_download_stream(\"StatPlanet_Afghanistan.zip\") as stream:\n        data \u003d stream.read()\n    shape_cnt \u003d gpd.read_file(io.BytesIO(data))​\n    shape_cnt \u003d shape_cnt.to_crs(epsg\u003d3857)\n    return shape_cnt.columns\n",
       "id": "shp",
       "type": "PY_FUNCTION"
     }
@@ -23,11 +23,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681228044741
+    "lastModifiedOn": 1681228049148
   },
   "creationTag": {
     "versionNumber": 0,
