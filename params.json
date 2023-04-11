@@ -121,10 +121,13 @@
       "promoted": false
     },
     "cluster": {
-      "clusterMode": "INHERIT"
+      "clusterMode": "INHERIT",
+      "clusterId": "test-cluster"
     },
     "k8sCluster": {
-      "clusterMode": "INHERIT"
+      "clusterMode": "INHERIT",
+      "clusterId": "test-cluster",
+      "defaultClusterId": ""
     },
     "virtualWebAppBackendSettings": {
       "mode": "INHERIT",
@@ -212,11 +215,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681143201297
+    "lastModifiedOn": 1681221725900
   },
   "creationTag": {
     "versionNumber": 0,
