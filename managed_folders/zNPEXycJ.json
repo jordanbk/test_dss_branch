@@ -4,7 +4,7 @@
   "params": {
     "metastoreSynchronizationEnabled": true,
     "connection": "jordan-s3-bucket",
-    "path": "/dataiku/GIT/dresden_shapefiles/",
+    "path": "/dataiku/GIT/routes_dresden/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -89,11 +89,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681227696835
+    "lastModifiedOn": 1681227720801
   },
   "creationTag": {
     "versionNumber": 0,
