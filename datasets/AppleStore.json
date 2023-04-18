@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680802323629
+    "lastModifiedOn": 1681832418368
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,14 +88,14 @@
   },
   "schema": {
     "columns": [
-      {"name":"id","type":"string"},
+      {"name":"id","type":"int"},
       {"name":"track_name","type":"string"},
       {"name":"size_bytes","type":"string"},
       {"name":"currency","type":"string"},
-      {"name":"price","type":"string"},
-      {"name":"rating_count_tot","type":"string"},
-      {"name":"rating_count_ver","type":"string"},
-      {"name":"user_rating","type":"string"},
+      {"name":"price","type":"int"},
+      {"name":"rating_count_tot","type":"int"},
+      {"name":"rating_count_ver","type":"int"},
+      {"name":"user_rating","type":"int"},
       {"name":"user_rating_ver","type":"string"},
       {"name":"ver","type":"string"},
       {"name":"cont_rating","type":"string"},
