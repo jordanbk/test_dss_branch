@@ -3,18 +3,18 @@
   "name": "steps",
   "active": false,
   "creationTag": {
-    "versionNumber": 8,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1681830211147
-  },
-  "versionTag": {
     "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1681830257665
+  },
+  "versionTag": {
+    "versionNumber": 10,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1681830383817
   },
   "checklists": {
     "checklists": []
@@ -43,7 +43,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "script": "import dataiku\nimport pandas as pd, numpy as np\nfrom dataiku import pandasutils as pdu\nfrom datetime import date\n\n# Create managed folder\napi_client \u003d dataiku.api_client()\nproject \u003d api_client.get_project(\"GIT\")\nnew_folder \u003d project.create_managed_folder(\"store_data\")\n\n# Read inputs\ndataset_1 \u003d dataiku.Dataset(\"apple-store-test\")\ndf_1 \u003d dataset_1.get_dataframe()\ndataset_2 \u003d dataiku.Dataset(\"AppleStore_copy\")\ndf_2 \u003d dataset_2.get_dataframe()\n\n# Get managed folder path\nstore_data \u003d dataiku.Folder(\"store_data\")\nstore_data_path \u003d store_data.get_path()\ncurrent_day \u003d date.today()\n# Store datasets\ndf_1.to_csv(f\u0027{store_data_path}/{current_day}+dataset_1.csv\u0027)\ndf_2.to_csv(f\u0027{store_data_path}/{current_day}+dataset_2.csv\u0027)",
+          "script": "import dataiku\nimport pandas as pd, numpy as np\nfrom dataiku import pandasutils as pdu\nfrom datetime import date\n\n# Create managed folder\napi_client \u003d dataiku.api_client()\nproject \u003d api_client.get_project(\"GIT\")\nnew_folder \u003d project.create_managed_folder(\"store_data\")\n\n# Read inputs\ndataset_1 \u003d dataiku.Dataset(\"apple-store-test\")\ndf_1 \u003d dataset_1.get_dataframe()\ndataset_2 \u003d dataiku.Dataset(\"AppleStore_copy\")\ndf_2 \u003d dataset_2.get_dataframe()\n\n# Get managed folder path\nstore_data \u003d dataiku.Folder(\"store_data\")\nstore_data_path \u003d store_data.get_path()\ntoday \u003d date.today()\nd1 \u003d today.strftime(\"%d/%m/%Y\")\n# Store datasets\ndf_1.to_csv(f\u0027{store_data_path}/{d1}+dataset_1.csv\u0027)\ndf_2.to_csv(f\u0027{store_data_path}/{d1}+dataset_2.csv\u0027)",
           "envSelection": {
             "envMode": "INHERIT"
           },
