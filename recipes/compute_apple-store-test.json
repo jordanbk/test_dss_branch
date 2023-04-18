@@ -8,7 +8,7 @@
       "envName": "py37"
     },
     "containerSelection": {
-      "containerMode": "EXPLICIT_CONTAINER",
+      "containerMode": "NONE",
       "containerConf": "execution-config"
     },
     "skipPrerunValidate": false
@@ -42,11 +42,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681828922063
+    "lastModifiedOn": 1681828943407
   },
   "creationTag": {
     "versionNumber": 0,
