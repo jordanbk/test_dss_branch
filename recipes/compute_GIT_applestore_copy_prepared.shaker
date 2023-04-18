@@ -28,7 +28,10 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -55,7 +58,24 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "rating_count_tot": 135,
+    "ver": 134,
+    "prime_genre": 100,
+    "size_bytes": 120,
+    "ipadSc_urls.num": 128,
+    "vpp_lic": 100,
+    "user_rating_ver": 134,
+    "cont_rating": 100,
+    "sup_devices.num": 128,
+    "lang.num": 100,
+    "price": 134,
+    "rating_count_ver": 135,
+    "currency": 100,
+    "id": 100,
+    "track_name": 300,
+    "user_rating": 134
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
