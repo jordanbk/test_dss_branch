@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681220415521
+    "lastModifiedOn": 1681828959692
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,8 +89,25 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"id","type":"bigint"},
+      {"name":"track_name","type":"string"},
+      {"name":"size_bytes","type":"bigint"},
+      {"name":"currency","type":"string"},
+      {"name":"price","type":"double"},
+      {"name":"rating_count_tot","type":"bigint"},
+      {"name":"rating_count_ver","type":"bigint"},
+      {"name":"user_rating","type":"double"},
+      {"name":"user_rating_ver","type":"double"},
+      {"name":"ver","type":"string"},
+      {"name":"cont_rating","type":"string"},
+      {"name":"prime_genre","type":"string"},
+      {"name":"sup_devices.num","type":"bigint"},
+      {"name":"ipadSc_urls.num","type":"bigint"},
+      {"name":"lang.num","type":"bigint"},
+      {"name":"vpp_lic","type":"bigint"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
