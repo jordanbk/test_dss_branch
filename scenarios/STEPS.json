@@ -3,18 +3,18 @@
   "name": "steps",
   "active": false,
   "creationTag": {
-    "versionNumber": 17,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1681918580161
-  },
-  "versionTag": {
     "versionNumber": 18,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1681919039405
+  },
+  "versionTag": {
+    "versionNumber": 19,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1681919413196
   },
   "checklists": {
     "checklists": []
@@ -26,7 +26,26 @@
   },
   "tags": [],
   "triggers": [],
-  "reporters": [],
+  "reporters": [
+    {
+      "active": true,
+      "messaging": {
+        "type": "mail-scenario",
+        "configuration": {
+          "subject": "DSS scenario ${scenarioName}: ${outcome}",
+          "sendAsHTML": false,
+          "attachments": [],
+          "messageSource": "TEMPLATE_FILE",
+          "templateFormat": "FREEMARKER",
+          "templateName": "default.ftl"
+        }
+      },
+      "id": "lpIk8ukw",
+      "runConditionEnabled": true,
+      "runCondition": "outcome !\u003d \u0027SUCCESS\u0027",
+      "phase": "END"
+    }
+  ],
   "params": {
     "steps": [
       {
