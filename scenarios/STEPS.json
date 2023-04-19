@@ -3,18 +3,18 @@
   "name": "steps",
   "active": false,
   "creationTag": {
-    "versionNumber": 15,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1681830587486
-  },
-  "versionTag": {
     "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1681830598054
+  },
+  "versionTag": {
+    "versionNumber": 17,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1681918580161
   },
   "checklists": {
     "checklists": []
@@ -26,7 +26,29 @@
   },
   "tags": [],
   "triggers": [],
-  "reporters": [],
+  "reporters": [
+    {
+      "active": true,
+      "messaging": {
+        "type": "mail-scenario",
+        "configuration": {
+          "channelId": "gmail",
+          "subject": "DSS scenario ${scenarioName}: ${outcome}",
+          "recipient": "jordan.burke@dataiku.com",
+          "sendAsHTML": false,
+          "attachments": [],
+          "messageSource": "TEMPLATE_FILE",
+          "templateFormat": "FREEMARKER",
+          "templateName": "default.ftl"
+        }
+      },
+      "id": "wRaqYPMP",
+      "name": "mail",
+      "runConditionEnabled": true,
+      "runCondition": "outcome !\u003d \u0027SUCCESS\u0027",
+      "phase": "END"
+    }
+  ],
   "params": {
     "steps": [
       {
