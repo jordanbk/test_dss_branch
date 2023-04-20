@@ -22,7 +22,7 @@
       "queries": [
         {
           "inputParameters": [],
-          "query": "-- Insert your SQL code here",
+          "query": "SELECT *\nFROM \u0027applestore_copy\u0027",
           "postCommit": false,
           "maxResults": -1
         }
@@ -42,11 +42,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682009599373
+    "lastModifiedOn": 1682011894788
   },
   "creationTag": {
     "versionNumber": 0,
