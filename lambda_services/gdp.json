@@ -27,7 +27,12 @@
           "maxResults": -1
         }
       ],
-      "testQueries": [],
+      "testQueries": [
+        {
+          "name": "Query #1",
+          "q": {}
+        }
+      ],
       "id": "sqlquery",
       "type": "SQL_QUERY"
     }
@@ -42,11 +47,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682011894788
+    "lastModifiedOn": 1682011908825
   },
   "creationTag": {
     "versionNumber": 0,
