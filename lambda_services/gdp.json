@@ -18,6 +18,7 @@
       "type": "PY_FUNCTION"
     },
     {
+      "connection": "postgres",
       "queries": [
         {
           "inputParameters": [],
@@ -41,11 +42,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682009584010
+    "lastModifiedOn": 1682009599373
   },
   "creationTag": {
     "versionNumber": 0,
