@@ -12,13 +12,13 @@ script_inputs_info = script_inputs.get_info()
 with script_inputs.get_download_stream("/orders.csv/orders.csv") as f:
     data = f.read()
 #print(data)
-df = pd.read_csv(io.StringIO(data.decode('utf-8')))
+#df = pd.read_csv(io.StringIO(data.decode('utf-8')))
 
 # Compute recipe outputs
 # TODO: Write here your actual code that computes the outputs
 # NB: DSS supports several kinds of APIs for reading and writing data. Please see doc.
 
-read_script_inputs_df = df
+read_script_inputs_df = data
 
 
 # Write recipe outputs
