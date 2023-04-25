@@ -3,7 +3,8 @@
   "endpoints": [
     {
       "envSelection": {
-        "envMode": "INHERIT"
+        "envMode": "EXPLICIT_ENV",
+        "envName": "py37"
       },
       "testQueries": [
         {
@@ -31,11 +32,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682431111878
+    "lastModifiedOn": 1682431327938
   },
   "creationTag": {
     "versionNumber": 0,
