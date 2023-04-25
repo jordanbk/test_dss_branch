@@ -2,6 +2,7 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+import io
 
 # Read recipe inputs
 script_inputs = dataiku.Folder("e4onN8Hu")
