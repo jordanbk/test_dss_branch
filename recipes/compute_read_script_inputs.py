@@ -12,7 +12,7 @@ script_inputs_info = script_inputs.get_info()
 with script_inputs.get_download_stream("/orders.csv/orders.csv") as f:
     data = f.read()
 #print(data)
-#df = pd.read_csv(io.StringIO(data.decode('utf-8')))
+df = pd.read_csv(io.StringIO(data.decode('utf-8')))
 
 # Compute recipe outputs
 # TODO: Write here your actual code that computes the outputs
