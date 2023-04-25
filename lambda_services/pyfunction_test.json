@@ -9,8 +9,8 @@
         {
           "name": "Query #2",
           "q": {
-            "project": "paramValueToReplace",
-            "dbName": "paramValueToReplace"
+            "project": "GIT",
+            "dbName": "snowflake"
           }
         }
       ],
@@ -31,11 +31,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682430522320
+    "lastModifiedOn": 1682431111878
   },
   "creationTag": {
     "versionNumber": 0,
