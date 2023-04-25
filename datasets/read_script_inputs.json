@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682439010411
+    "lastModifiedOn": 1682439654280
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,8 +89,16 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"order_date","type":"string"},
+      {"name":"pages_visited","type":"bigint"},
+      {"name":"order_id","type":"string"},
+      {"name":"customer_id","type":"string"},
+      {"name":"tshirt_category","type":"string"},
+      {"name":"tshirt_price","type":"double"},
+      {"name":"tshirt_quantity","type":"bigint"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
