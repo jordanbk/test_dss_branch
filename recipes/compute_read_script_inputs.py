@@ -18,7 +18,7 @@ with script_inputs.get_download_stream("/orders.csv/orders.csv") as f:
 # TODO: Write here your actual code that computes the outputs
 # NB: DSS supports several kinds of APIs for reading and writing data. Please see doc.
 
-read_script_inputs_df = data
+read_script_inputs_df = df
 
 
 # Write recipe outputs
