@@ -1,9 +1,22 @@
 {
   "name": "script_inputs",
-  "type": "Filesystem",
+  "type": "fsprovider_sharepoint-online_sharepoint-online_shared-documents",
   "params": {
-    "connection": "filesystem_folders",
-    "path": "${projectKey}/${odbId}",
+    "config": {
+      "advanced_parameters": false,
+      "sharepoint_oauth": {
+        "mode": "NONE"
+      },
+      "sharepoint_sharepy": {
+        "mode": "NONE"
+      },
+      "site_app_permissions": {
+        "mode": "PRESET",
+        "name": "Sharepoint"
+      },
+      "auth_type": "site-app-permissions"
+    },
+    "path": "/LargeFileUploadTest/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -88,11 +101,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682438100043
+    "lastModifiedOn": 1682438214207
   },
   "creationTag": {
     "versionNumber": 0,
