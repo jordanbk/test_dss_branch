@@ -29,7 +29,7 @@
     ]
   },
   "projectType": "REGULAR",
-  "projectAppType": "REGULAR",
+  "projectAppType": "APP_TEMPLATE",
   "hasSetupSection": false,
   "bundleExporterSettings": {
     "exportOptions": {
@@ -242,11 +242,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681832368977
+    "lastModifiedOn": 1682950984126
   },
   "creationTag": {
     "versionNumber": 0,
