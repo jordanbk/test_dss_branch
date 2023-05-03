@@ -186,7 +186,7 @@
     },
     "dkuProperties": []
   },
-  "name": "Dataiku TShirts for Administrator",
+  "name": "Dataiku TShirts for Administrator (test1)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -242,11 +242,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 23,
+    "versionNumber": 24,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683136646075
+    "lastModifiedOn": 1683136646146
   },
   "creationTag": {
     "versionNumber": 0,
@@ -255,7 +255,7 @@
     },
     "lastModifiedOn": 1680791345628
   },
-  "shortDesc": "This project offers a slightly different look at the Haiku T-Shirt company from the [Tutorials](https://academy.dataiku.com/latest/tutorial/index.html)",
+  "shortDesc": "This project offers a slightly different look at the Haiku T-Shirt company from the [Tutorials](https://academy.dataiku.com/latest/tutorial/index.html)\nThe project *DATAIKU_TSHIRTS_FOR_ADMINISTRATOR_TEST1* was copied from *DKU_TSHIRTS* on *new_branch* branch by Administrator on May 03rd 2023",
   "tags": [
     "duplicated"
   ],
