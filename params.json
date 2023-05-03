@@ -186,7 +186,7 @@
     },
     "dkuProperties": []
   },
-  "name": "GIT",
+  "name": "Dataiku TShirts for Administrator",
   "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
@@ -243,11 +243,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683135723866
+    "lastModifiedOn": 1683136471625
   },
   "creationTag": {
     "versionNumber": 0,
@@ -256,7 +256,7 @@
     },
     "lastModifiedOn": 1680791345628
   },
-  "shortDesc": "The project *GIT* was created by Administrator on Apr 06th 2023",
+  "shortDesc": "This project offers a slightly different look at the Haiku T-Shirt company from the [Tutorials](https://academy.dataiku.com/latest/tutorial/index.html)",
   "tags": [],
   "customFields": {},
   "checklists": {
