@@ -187,7 +187,6 @@
     "dkuProperties": []
   },
   "name": "Dataiku TShirts for Administrator",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -243,11 +242,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683136471625
+    "lastModifiedOn": 1683136646075
   },
   "creationTag": {
     "versionNumber": 0,
@@ -257,7 +256,9 @@
     "lastModifiedOn": 1680791345628
   },
   "shortDesc": "This project offers a slightly different look at the Haiku T-Shirt company from the [Tutorials](https://academy.dataiku.com/latest/tutorial/index.html)",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
